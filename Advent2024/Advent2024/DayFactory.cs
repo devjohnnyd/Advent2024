@@ -15,6 +15,7 @@ namespace Advent2024
             return dayNumber switch
             {
                 1 => new Day1(),
+                2 => new Day2(),    
                 // Add more days as needed
                 _ => throw new ArgumentException("Day not implemented")
             };
